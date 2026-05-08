@@ -1,4 +1,6 @@
-# E-Commerce-Company-with-Load-Balanced-Web-Servers-AAA
+E-Commerce Enterprise Network — Load-Balanced Web Servers & AAA Security
+A secure, highly available enterprise network simulation built in Cisco Packet Tracer, featuring load balancing, VLAN segmentation, AAA authentication, and advanced Layer 2 security mechanisms.
+
 Project Overview
 This project demonstrates the design and implementation of a secure, highly available enterprise network for a simulated e-commerce company. Built following real-world networking practices, the network incorporates high availability, network segmentation, centralized authentication, and comprehensive monitoring.
 
@@ -105,3 +107,5 @@ all copies or substantial portions of the project.
 THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+This project was developed for academic and learning purposes as part of the Computer Networks curriculum at Namal University.
+
