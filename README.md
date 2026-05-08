@@ -1,168 +1,185 @@
-E-Commerce Enterprise Network
-Load-Balanced Web Servers & AAA Security
+# E-Commerce Enterprise Network
+
+### Load-Balanced Web Servers & AAA Security
+
 A secure, highly available enterprise network simulation built in Cisco Packet Tracer, featuring load balancing, VLAN segmentation, AAA authentication, and advanced Layer 2 security mechanisms.
 
-<br>
-Table of Contents
-Project Overview
-Project Scenario
-Core Features
-Additional Features
-Technologies Used
-Team Members
-Academic Information
-Project Status
-Learning Outcomes
-License
-<br>
-Project Overview
+---
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Project Scenario](#project-scenario)
+3. [Core Features](#core-features)
+4. [Additional Features](#additional-features)
+5. [Technologies Used](#technologies-used)
+6. [Team Members](#team-members)
+7. [Academic Information](#academic-information)
+8. [Project Status](#project-status)
+9. [Learning Outcomes](#learning-outcomes)
+10. [License](#license)
+
+---
+
+## Project Overview
+
 This project demonstrates the design and implementation of a secure, highly available enterprise network for a simulated e-commerce company.
 
 Built following real-world networking practices, the network incorporates:
 
-High availability through redundant systems
-Secure network segmentation
-Centralized authentication and monitoring
-Comprehensive Layer 2 and Layer 3 security
-Developed as part of the Computer Networks course at Namal University, under the guidance of Sir Shehzad Arif.
+- High availability through redundant systems
+- Secure network segmentation
+- Centralized authentication and monitoring
+- Comprehensive Layer 2 and Layer 3 security
 
-<br>
-Project Scenario
+Developed as part of the **Computer Networks** course at **Namal University**, under the guidance of **Sir Shehzad Arif**.
+
+---
+
+## Project Scenario
+
 An online e-commerce company requires a network that fulfills the following demands:
 
-Requirement	Description
-High Availability	Uninterrupted access to website and services
-Network Segmentation	Secure separation of internal departments
-Internet Access	Controlled and safe outbound connectivity
-Centralized Management	Unified authentication and network monitoring
-This project fulfills all these requirements using enterprise-level networking concepts and configurations.
+| Requirement | Description |
+|-------------|-------------|
+| High Availability | Uninterrupted access to website and services |
+| Network Segmentation | Secure separation of internal departments |
+| Internet Access | Controlled and safe outbound connectivity |
+| Centralized Management | Unified authentication and network monitoring |
 
-<br>
-Core Features
-<br>
-1. Load-Balanced Web Servers
-Two web servers are deployed to ensure redundancy and fault tolerance across the network.
+This project fulfills all these requirements using enterprise-level networking concepts.
 
-DNS-based load balancing ensures continuous high availability
-Automatic traffic distribution between servers
-Eliminates single points of failure for the web service
-<br>
-2. FTP Server
-A dedicated FTP server handles all internal file and content management.
+---
 
-Used for secure product and content uploads
-Accessible only by authorized internal users
-Enforces controlled file management across the organization
-<br>
-3. AAA-Based Router Authentication
+## Core Features
+
+### 1. Load-Balanced Web Servers
+
+Two web servers are deployed to ensure redundancy and fault tolerance.
+
+- DNS-based load balancing ensures continuous availability
+- Automatic traffic distribution between servers
+- Eliminates single points of failure
+
+### 2. FTP Server
+
+A dedicated FTP server handles all internal file management.
+
+- Used for secure product and content uploads
+- Accessible only by authorized internal users
+- Enforces controlled file management
+
+### 3. AAA-Based Router Authentication
+
 Full Authentication, Authorization, and Accounting implemented across all routers.
 
-Centralized authentication prevents unauthorized administrative access
-Role-based authorization controls what each user can access
-Every login attempt is tracked and logged for full accountability
-<br>
-4. VLAN Segmentation
+- Centralized authentication prevents unauthorized access
+- Role-based authorization controls user privileges
+- Every login attempt is tracked and logged
+
+### 4. VLAN Segmentation
+
 The network is logically divided into separate VLANs for each department.
 
-VLAN ID	Department
-VLAN 10	Development (Dev)
-VLAN 20	Human Resources (HR)
-VLAN 30	Sales
-VLAN 40	Support
-Key Benefits:
+| VLAN ID | Department |
+|---------|------------|
+| VLAN 10 | Development (Dev) |
+| VLAN 20 | Human Resources (HR) |
+| VLAN 30 | Sales |
+| VLAN 40 | Support |
 
-Enhanced security between departments
-Reduced broadcast traffic across the network
-Clean and logical network separation
-<br>
-5. DHCP Snooping & Dynamic ARP Inspection
+**Key Benefits:**
+
+- Enhanced security between departments
+- Reduced broadcast traffic
+- Logical network separation
+
+### 5. DHCP Snooping & Dynamic ARP Inspection
+
 Layer 2 security is enforced through two complementary mechanisms.
 
-DHCP Snooping prevents rogue DHCP servers from distributing malicious network configurations
-Dynamic ARP Inspection (DAI) protects against ARP spoofing and ARP poisoning attacks
-Together these mechanisms form a strong Layer 2 security foundation
-<br>
-6. Network Address Translation (NAT)
+- **DHCP Snooping** prevents rogue DHCP servers
+- **Dynamic ARP Inspection (DAI)** prevents ARP spoofing attacks
+- Forms a strong Layer 2 security foundation
+
+### 6. Network Address Translation (NAT)
+
 NAT is configured to manage outbound internet traffic securely.
 
-Internal private IP addresses are translated to public IPs for internet access
-Hides the internal network structure from external entities
-Enables secure and controlled outbound internet connectivity
-<br>
-Additional Features
-<br>
-Feature	Description
-Port Security	Restricts switch ports to authorized devices only, preventing unauthorized access
-Email Server	Manages internal and external organizational communication
-Syslog Server	Provides centralized logging for real-time monitoring and auditing
-<br>
-Technologies Used
-<br>
-Category	Technology / Concept
-Network Segmentation	VLANs & Inter-VLAN Routing
-High Availability	DNS-Based Load Balancing
-File Transfer	FTP Services
-Access Control	AAA — Authentication, Authorization & Accounting
-Layer 2 Security	DHCP Snooping & Dynamic ARP Inspection (DAI)
-Internet Access	Network Address Translation (NAT)
-Port Control	Port Security
-Monitoring	Syslog & Email Services
-Device Configuration	Cisco IOS
-<br>
-Team Members
-<br>
-Name	Contribution
-Muhammad Yasir	Network Design, Security Implementation & Configuration
-Rehan Ali	Network Design, Services Configuration & Testing
-<br>
-Academic Information
-<br>
-Field	Detail
-Course	Computer Networks
-Institution	Namal University
-Instructor	Sir Shehzad Arif
-<br>
-Project Status
-<br>
-Task	Status
-All services implemented	Completed
-Full network testing	Verified
-Security mechanisms validated	Verified
-All project requirements met	Confirmed
-<br>
-Learning Outcomes
-Through this project, we gained practical and theoretical understanding of the following areas:
+- Internal private IPs translated to public IPs
+- Hides internal network structure
+- Enables secure outbound connectivity
 
-Hands-on experience with enterprise-level network design and architecture
-Practical implementation of real-world security mechanisms
-Deep understanding of high-availability systems and redundancy planning
-Real-world exposure to network monitoring and centralized management
-Proficiency in Cisco IOS configuration and troubleshooting
-<br>
-License
-text
+---
 
-MIT License
+## Additional Features
 
-Copyright (c) 2025 Muhammad Yasir & Rehan Ali
+| Feature | Description |
+|---------|-------------|
+| Port Security | Restricts switch ports to authorized devices only |
+| Email Server | Manages internal and external communication |
+| Syslog Server | Centralized logging and real-time monitoring |
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this project and associated documentation files, to deal in the project
-without restriction, including without limitation the rights to use, copy,
-modify, merge, publish, distribute, sublicense, and/or sell copies of the
-project, and to permit persons to whom the project is furnished to do so,
-subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the project.
+## Technologies Used
 
-THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE PROJECT OR THE USE OR OTHER DEALINGS
-IN THE PROJECT.
-This project was developed for academic and learning purposes as part of the Computer Networks curriculum at Namal University.
+| Category | Technology |
+|----------|-----------|
+| Network Segmentation | VLANs & Inter-VLAN Routing |
+| High Availability | DNS-Based Load Balancing |
+| File Transfer | FTP Services |
+| Access Control | AAA (Authentication, Authorization, Accounting) |
+| Layer 2 Security | DHCP Snooping & Dynamic ARP Inspection |
+| Internet Access | Network Address Translation (NAT) |
+| Port Control | Port Security |
+| Monitoring | Syslog & Email Services |
+| Configuration | Cisco IOS |
 
-<br> <br>
+---
+
+## Team Members
+
+| Name | Contribution |
+|------|-------------|
+| **Muhammad Yasir** | Network Design, Security Implementation & Configuration |
+| **Rehan Ali** | Network Design, Services Configuration & Testing |
+
+---
+
+## Academic Information
+
+| Field | Detail |
+|-------|--------|
+| Course | Computer Networks |
+| Institution | Namal University |
+| Instructor | Sir Shehzad Arif |
+
+---
+
+## Project Status
+
+| Task | Status |
+|------|--------|
+| All services implemented | Completed |
+| Full network testing | Verified |
+| Security mechanisms validated | Verified |
+| All project requirements met | Confirmed |
+
+---
+
+## Learning Outcomes
+
+Through this project, we gained practical understanding of:
+
+- Enterprise-level network design and architecture
+- Real-world security mechanisms implementation
+- High-availability systems and redundancy planning
+- Network monitoring and centralized management
+- Cisco IOS configuration and troubleshooting
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
