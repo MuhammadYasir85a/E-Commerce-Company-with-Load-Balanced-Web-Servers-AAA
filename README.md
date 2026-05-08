@@ -1,34 +1,34 @@
 E-Commerce Enterprise Network — Load-Balanced Web Servers & AAA Security
 A secure, highly available enterprise network simulation built in Cisco Packet Tracer, featuring load balancing, VLAN segmentation, AAA authentication, and advanced Layer 2 security mechanisms.
 
-Project Overview
+📌 Project Overview
 This project demonstrates the design and implementation of a secure, highly available enterprise network for a simulated e-commerce company. Built following real-world networking practices, the network incorporates high availability, network segmentation, centralized authentication, and comprehensive monitoring.
 
 Developed as part of the Computer Networks course at Namal University, under the guidance of Sir Shehzad Arif.
 
-Project Scenario
+🎯 Project Scenario
 An online e-commerce company requires:
 
-High availability for its website and services
-Secure internal network segmentation
-Controlled and safe internet access
-Centralized authentication and network monitoring
+✅ High availability for its website and services
+✅ Secure internal network segmentation
+✅ Controlled and safe internet access
+✅ Centralized authentication and network monitoring
 This project fulfills all these requirements using enterprise-level networking concepts and configurations.
 
-Core Features Implemented
-Load-Balanced Web Servers
+🔧 Core Features Implemented
+⚖️ Load-Balanced Web Servers
 Two web servers deployed for redundancy and fault tolerance
 DNS-based load balancing ensures continuous high availability
 Automatic traffic distribution between servers prevents single points of failure
-FTP Server
+📁 FTP Server
 Dedicated FTP server for secure product and content uploads
 Accessible only by authorized internal users
 Enforces controlled file management across the organization
-AAA-Based Router Authentication
+🔐 AAA-Based Router Authentication
 Full Authentication, Authorization, and Accounting (AAA) implemented on routers
 Centralized authentication prevents unauthorized administrative access
 Every login attempt is tracked and logged for accountability
-VLAN Segmentation
+🗂️ VLAN Segmentation
 Separate VLANs created for different departments:
 
 VLAN	Department
@@ -41,20 +41,20 @@ Benefits:
 Enhanced security between departments
 Reduced broadcast traffic
 Logical and clean network separation
-DHCP Snooping & Dynamic ARP Inspection (DAI)
+🛡️ DHCP Snooping & Dynamic ARP Inspection (DAI)
 DHCP Snooping prevents rogue DHCP servers from distributing malicious configurations
 Dynamic ARP Inspection (DAI) protects against ARP spoofing and poisoning attacks
 Together these significantly strengthen Layer 2 security
-Network Address Translation (NAT)
+🌐 Network Address Translation (NAT)
 Internal private IP addresses translated to public IPs for internet access
 Hides the internal network structure from external entities
 Enables secure and controlled outbound internet connectivity
-Additional Features
+✨ Additional Features
 Feature	Purpose
-Port Security	Limits unauthorized device connections on switch ports
-Email Server	Handles internal and external organizational communication
-Syslog Server	Centralized logging for real-time monitoring and auditing
-Technologies & Concepts Used
+🔒 Port Security	Limits unauthorized device connections on switch ports
+📧 Email Server	Handles internal and external organizational communication
+📋 Syslog Server	Centralized logging for real-time monitoring and auditing
+🧠 Technologies & Concepts Used
 VLANs & Inter-VLAN Routing
 DNS-Based Load Balancing
 FTP Services
@@ -65,29 +65,29 @@ Network Address Translation (NAT)
 Port Security
 Syslog & Email Services
 Cisco IOS Configuration
-Team Members
+👥 Team Members
 Name	Role
 Muhammad Yasir	Network Design, Security Implementation & Configuration
 Rehan Ali	Network Design, Services Configuration & Testing
-Academic Information
+🏫 Academic Information
 Course	Computer Networks
 Institution	Namal University
 Instructor	Sir Shehzad Arif
-Project Status
+✅ Project Status
 Task	Status
-All services implemented	Complete
-Full network testing	Verified
-Security mechanisms validated	Verified
-All project requirements met	Confirmed
-Learning Outcomes
+All services implemented	✔️ Complete
+Full network testing	✔️ Verified
+Security mechanisms validated	✔️ Verified
+All project requirements met	✔️ Confirmed
+📈 Learning Outcomes
 Through this project, we gained:
 
-Hands-on experience with enterprise network design
-Practical implementation of real-world security mechanisms
-Deep understanding of high-availability systems
-Real-world exposure to network monitoring and management
-Proficiency in Cisco IOS configuration and troubleshooting
-License
+🏗️ Hands-on experience with enterprise network design
+🔐 Practical implementation of real-world security mechanisms
+📡 Deep understanding of high-availability systems
+📊 Real-world exposure to network monitoring and management
+💻 Proficiency in Cisco IOS configuration and troubleshooting
+📄 License
 text
 
 MIT License
@@ -107,5 +107,3 @@ all copies or substantial portions of the project.
 THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-This project was developed for academic and learning purposes as part of the Computer Networks curriculum at Namal University.
-
